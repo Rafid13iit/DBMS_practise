@@ -1,0 +1,1 @@
+select &employee_id, &first_name, &department_id, &salary from employees where employee_id = &EMPLOYEE_ID;

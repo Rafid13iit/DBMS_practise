@@ -1,0 +1,1 @@
+select last_name, job_id, department_id, salary from employees order by department_id, salary desc;

@@ -1,0 +1,1 @@
+select employee_id, last_name, salary from employees where salary between 3000 and 5000;

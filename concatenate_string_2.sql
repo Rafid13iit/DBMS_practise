@@ -1,0 +1,1 @@
+select last_name || q'['s annual salary with commission is ]' || (12*salary+nvl(12*commission_pct*salary, 0)) "ANNUAL SALARY WITH COMMISSION" from employees;

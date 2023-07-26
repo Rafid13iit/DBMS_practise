@@ -1,0 +1,1 @@
+ select first_name, job_id, salary from employees where first_name like '_o%';

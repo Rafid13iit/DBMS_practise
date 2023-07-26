@@ -1,0 +1,1 @@
+select employee_id, last_name, job_id from employees where job_id not in ('MN_MAN', 'SA_REP', 'ST_CLERK', 'IT_PROG');
