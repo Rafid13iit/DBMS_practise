@@ -1,0 +1,1 @@
+select round(45.926, 2) "ROUND_1", round(45.926, 1) "ROUND_2", round(45.926, 0) "ROUND_3", round(45.926, -1) "ROUND_4", round(45.926, -2) "ROUND_5",trunc(45.926, 2) "TRUNC_1", trunc(45.926, 0) "TRUNC_2", mod(1600, 300) "MOD" from dual;

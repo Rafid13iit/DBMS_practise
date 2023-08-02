@@ -1,0 +1,1 @@
+select lower('SQL Course') "LOWER", upper('SQL Course') "UPPER", initcap('SQL Course') "INITCAP" from dual;
