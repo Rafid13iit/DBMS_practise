@@ -1,0 +1,35 @@
+insert into Sailors values('sid','sname','rating','age');
+_________________________________________________________
+
+insert into Sailors values(22,'Dustin',7,45.0);
+insert into Sailors values(29, 'Brutus', 1 , 33.0);
+insert into Sailors values(31,'Lubbur', 8, 55.5);
+insert into Sailors values(32, 'Andy', 8, 25.5);
+insert into Sailors values(58, 'Rusty', 10, 35.5);
+insert into Sailors values(64, 'Horatio', 7, 35.0);
+insert into Sailors values(71, 'Zorba', 10, 16.0);
+insert into Sailors values(74, 'Horatio', 9, 35.0);
+insert into Sailors values(85, 'Art', 3, 25.5);
+insert into Sailors values(95, 'Bob', 3, 63.5);
+
+
+insert into Reserves values('sid', 'bid', 'day');
+----------------------------------------------
+
+insert into Reserves values(22, 101, '10/10/98');
+insert into Reserves values(23, 102, '10/10/98');
+insert into Reserves values(22, 103, '10/8/98');
+insert into Reserves values(22, 104, '10/7/ 98');
+insert into Reserves values(31, 102, '11/10/98');
+insert into Reserves values(31, 103, '11/6/98');
+insert into Reserves values(31, 104, '11/12/98');
+insert into Reserves values(64, 101, '9/5/98');
+insert into Reserves values(64, 102, '9/8/98');
+insert into Reserves values(74, 103, '9/8/98');
+insert into Boats values('bid','bname', 'color');
+________________________________________________
+
+insert into Boats values(101, 'Interlake', 'blue');
+insert into Boats values(102, 'Interlake', 'red');
+insert into Boats values(103, 'Clipper', 'green');
+insert into Boats values(104, 'Marline', 'red');
