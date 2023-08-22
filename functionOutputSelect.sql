@@ -1,0 +1,1 @@
+select job_id, get_sal(employee_id) from employees;

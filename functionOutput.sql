@@ -1,0 +1,1 @@
+ execute dbms_output.put_line(get_sal(100)); 
