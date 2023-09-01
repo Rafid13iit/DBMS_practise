@@ -12,14 +12,13 @@ DECLARE
 			LOOP
 
 				FETCH c_zip INTO vr_zip;
-
+				EXIT WHEN c_zip%NOTFOUND;
+				
             	SELECT department_name INTO v_department_name
             	FROM departments
             	WHERE vr_zip.department_id = department_id;
 				
 				DBMS_OUTPUT.PUT_LINE(vr_zip.employee_id || '  ' || vr_zip.last_name || '''s department name is ' || v_department_name || ' and annual salary is ' || vr_zip.salary*12);
-
-				EXIT WHEN c_zip%NOTFOUND;
 			
 			END LOOP;
 		END;

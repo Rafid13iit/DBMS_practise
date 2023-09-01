@@ -9,7 +9,8 @@ DECLARE
 
 			OPEN c_zip;
 			FETCH c_zip INTO vr_zip;
-            WHILE c_zip%FOUND
+            
+			WHILE c_zip%FOUND
 			LOOP
 
 				FETCH c_zip INTO vr_zip;
