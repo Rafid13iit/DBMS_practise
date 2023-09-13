@@ -1,0 +1,10 @@
+# Commands to execute sqlite3 in windows [before running this command MAKE SURE you have gcc/minGW installed in your system]
+
+
+gcc *.c 
+./a.exe or a.exe
+
+
+# About sqlite3_open() Folder 
+In our case, we were told to select any of sqlite3 functio, execute it and lastly present it to the class.
+So, I choose one of the function. I have included the folder so that you can get an idea about what to do next.

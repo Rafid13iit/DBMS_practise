@@ -1,0 +1,2 @@
+g++ sqliteOpenFunction.c sqlite3.dll
+./a.exe or a.exe
